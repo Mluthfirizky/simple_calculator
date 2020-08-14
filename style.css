@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open sans', sans-serif;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/722/881/129/blue-ocean-1920x1200-nature-oceans-hd-art-wallpaper-preview.jpg);
+    background-size: cover;
+    
+    
+    
+}
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: #b6dcf5;
+    
+    margin: 0 auto;
+    top: 70px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0,0.2), 0 6px 24px 0 rgb(0, 0, 0,0.19);
+    
+    
+}
+
+
+
+
+
+
+#result {
+    height: 120px;
+}
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output {
+    text-align: right;
+    font-weight: bold;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#keyboard {
+    height: 400px;
+    
+}   
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.number, .empty {
+    background-color: #b6dcf5;
+
+}
+.number, .operator  {
+    cursor: pointer;
+}
+.operator {
+    background-color: #8ba4b4;
+}
+.number:hover {
+    background-color: #a2d7fa;
+}
+.operator:hover {
+    background-color: #8ccffc;
+}
+.number:active, .operator:active {
+    font-size: 13px;
+}
+.number:focus, .operator:focus, .empty:focus {
+    outline: 0;
+}
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #60a1cc;
+}
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #4a83a8;
+
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #2c5977;
+
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #17384e;
+
+}
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #09273a;
+
+}
+
